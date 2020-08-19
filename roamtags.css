@@ -1,0 +1,454 @@
+/* specific data tags */
+
+span.rm-page-ref[data-tag="Done"] {
+    background-color: #eef9eb;
+    color: #5bc43b !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Complete"] {
+    background-color: #eef9eb;
+    color: #5bc43b !important;
+    border-radius: 12px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Booked"] {
+    background-color: #eef9eb;
+    color: #5bc43b !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Scheduled"] {
+    background-color: #ffebdc;
+    color: #f2812c !important;
+    border-radius: 6px;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Incomplete"] {
+    background-color: #fdeee9;
+    color: #ed5d2a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Not Started"] {
+    background-color: #fdeee9;
+    color: #ed5d2a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Tentative"] {
+    background-color: #fff;
+    color: #edb62a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="Planning"] {
+    background-color: #fdfae9;
+    color: #edb62a !important;
+    border-radius: 12px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span.rm-page-ref[data-tag="In Progress"] {
+    background-color: #fdfae9;
+    color: #edb62a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+/* credit cards */
+
+span[data-link-title^='Mastercard'] .rm-page-ref {
+    background-color: #ff9900;
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Visa'] .rm-page-ref {
+    background-color: #1a1f71;
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='AmEx'] .rm-page-ref {
+    background-color: #006fcf;
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 500;
+    border: none !important;
+}
+
+/* quotes, tweets, and reddit posts */
+
+span.rm-page-ref[data-tag="Quote"] {
+    background-color: #3F6EB5;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Tweet'] .rm-page-ref {
+    background-color: #1da1f2;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Reddit Post'] .rm-page-ref {
+    background-color: #ff4500;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+/* journals and trackers */
+
+span[data-link-title^='Beer Journal'] .rm-page-ref {
+    background-color: #eaca85;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Wine Journal'] .rm-page-ref {
+    background-color: #a84361;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Whiskey Journal'] .rm-page-ref {
+    background-color: #bb7e4b;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+}
+span[data-link-title^='Coffee Journal'] .rm-page-ref {
+    background-color: #645142;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Run Tracker'] .rm-page-ref {
+    background-color: #fc5200;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Workout Tracker'] .rm-page-ref {
+    background-color: #df3124;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Meal Tracker'] .rm-page-ref {
+    background-color: #25B52C;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Drink Tracker'] .rm-page-ref {
+    background-color: #DDD0BF;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Fast Tracker'] .rm-page-ref {
+    background-image: linear-gradient(#f97a65, #f88d69);
+    color: #FFFFFF !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Music Tracker'] .rm-page-ref {
+    background-color: #59E88B;
+    color: #ffffff !important;
+  	border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Order Tracker'] .rm-page-ref {
+    background-color: #FFD563;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+/* shipping updates */
+
+span[data-link-title^='📦 Delivered'] .rm-page-ref {
+    background-color: #eef9eb;
+    color: #5bc43b !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='🧾 Ordered'] .rm-page-ref {
+    background-color: #fdfae9;
+    color: #edb62a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='🚚 Shipped'] .rm-page-ref {
+    background-color: #E6F9FF;
+    color: #2ABFED !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='SleepScore'] .rm-page-ref {
+    background-color: #172a3b;
+    color: #6ac8f2 !important;
+  	border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+span[data-link-title^='Merlō'] .rm-page-ref {
+    background-color: #333b40;
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 600;
+    border: none !important;
+}
+span[data-link-title^='The Plympton'] .rm-page-ref {
+    background-color: #d27659;
+    text-transform: uppercase;
+    color: #fff7f5 !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 600;
+    border: none !important;
+}
+
+span[data-link-title^='Chelsea Cooper'] .rm-page-ref {
+  	background-color: #FFDDEB;
+    border-radius: 6px;
+    padding: 3px 4px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+span[data-link-title^=' '] .rm-page-ref {
+  	background-color: #e9eef9;
+    border-radius: 6px;
+    padding: 3px 4px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+/* morning journal */
+
+span[data-link-title^='I am grateful for...'] .rm-page-ref {
+    text-transform: uppercase !important;
+    background-color: #f5f5f5;
+    color: #161a1c !important;
+  	border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid #e6e9eb !important;
+}
+span[data-link-title^='What would make today great?'] .rm-page-ref {
+    text-transform: uppercase !important;
+    background-color: #f5f5f5;
+    color: #161a1c !important;
+  	border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid #e6e9eb !important;
+}
+
+span[data-link-title^='Daily Affirmation'] .rm-page-ref {
+    text-transform: uppercase !important;
+    background-color: #f5f5f5;
+    color: #161a1c !important;
+  	border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid #e6e9eb !important;
+}
+
+/* r/fashionrepd */
+
+span[data-link-title^='🔥 Cop'] .rm-page-ref {
+    text-transform: uppercase !important;
+    background-color: #eef9eb;
+    color: #5bc43b !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+span[data-link-title^='👎 Drop'] .rm-page-ref {
+    text-transform: uppercase !important;
+    background-color: #fdeee9;
+    color: #ed5d2a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+span[data-link-title^='✋ TBD'] .rm-page-ref {
+    background-color: #fdfae9;
+    color: #edb62a !important;
+    border-radius: 6px;
+    padding: 3px 6px;
+    line-height: 2em;
+    font-size: 12px;
+    font-weight: 500;
+    border: none !important;
+}
+
+span[data-link-title^='CAD'] .rm-page-ref {
+    background-color: #FF5D5D;
+    color: #FFFFFF !important;
+    border-radius: 6px;
+    padding: 3px 5px;
+    line-height: 0em;
+    font-size: 10px;
+    font-weight: 600;
+    border: none !important;
+}
+span[data-link-title^='CAD'] .rm-page-ref:hover {
+    text-decoration: none;
+  	background-color: #FF5D5D;
+    color: #FFFFFF !important;
+    border-radius: 6px;
+    padding: 3px 5px;
+    line-height: 0em;
+    font-size: 10px;
+    font-weight: 600;
+    border: none !important;
+}
